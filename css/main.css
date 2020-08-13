@@ -65,3 +65,11 @@ section{display: flex;}
 .account a{font-size: 14px;}
 .profile-pic{width: 60px; height: 60px;}
 .profile-pic img{border-radius: 100px; max-width: 100%;}
+
+.hero{
+    background-image: img/hero.jpg;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+}
