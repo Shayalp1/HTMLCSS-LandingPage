@@ -13,13 +13,13 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     max-width: 1170px;
 }
 
-section{display: flex;}
-.flex { display: flex; }
+section {display: flex;}
+.flex {display: flex; }
 .flex-column { flex-direction: column; }
-.flex-one { flex: 1; }
-.align-center { align-items: center; }
-.center { justify-content: center; }
-.space-between { justify-content: space-between; }
+.flex-one {flex: 1; }
+.align-center {align-items: center; }
+.center {justify-content: center; }
+.space-between {justify-content: space-between; }
 
 .btn {
     cursor: pointer;
@@ -28,8 +28,8 @@ section{display: flex;}
     line-height: 1.4;
     border-radius: 3px;
 }
-.btn-default { color: #ffffff; background-color: #faa541; }
-.btn-primary { color: #ffffff; background-color: #364147; }
+.btn-default {color: #ffffff; background-color: #faa541; }
+.btn-primary {color: #ffffff; background-color: #364147; }
 
 .form-control {
     display: block; 
@@ -39,13 +39,13 @@ section{display: flex;}
     border: 1px solid #a0a0a0;
 }
 
-.text-light { font-size: 30px; color: #A0A0A0; }
-.text-secondary { font-size: 30px; color: #faa541; }
-.text-primary { font-size: 16px; color: #364147; } 
+.text-light {font-size: 30px; color: #A0A0A0; }
+.text-secondary {font-size: 30px; color: #faa541; }
+.text-primary {font-size: 16px; color: #364147; } 
 
-.header-nav{border-bottom: 1px solid #a0a0a0;}
-.brand{width: 170px; height: 85px; margin-left: -15px; margin-right: 60px;}
-.logo{max-width: 100%; height:auto;}
+.header-nav {border-bottom: 1px solid #a0a0a0;}
+.brand {width: 170px; height: 85px; margin-left: -15px; margin-right: 60px;}
+.logo {max-width: 100%; height:auto;}
 
 .search-box {width: 330px; height: 30px; padding: 6px 12px; border: 1px solid #a0a0a0;}
 .search-button {
@@ -87,3 +87,21 @@ section{display: flex;}
     padding: 25px 0;    
 }
 .banner img {width: 250px;}
+.banner-text {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
+.banner-text > div:last-child {font-size: 16px; font-weight: 400; margin-top: 5px;}
+.category {flex: 0 0 25%; padding: 0 15px;}
+.catagory img {width: 100%;}
+.category-text {
+    color: #364147;
+    padding: 30px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.category-text > div {font-size: 16px; font-weight: 200; color: #faa541;}
+.category-text h3 {font-size: 30px; font-weight: 700; line-height: 1;}
